@@ -554,15 +554,7 @@ class BlogView extends React.Component {
 	render(){
 		return(
 			<div>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla rutrum hendrerit velit nec efficitur. Phasellus eget lobortis est. Vestibulum vehicula blandit quam, vel ultrices lorem tincidunt ut. Sed mi mi, iaculis at felis eget, tincidunt laoreet augue. Curabitur porta egestas pharetra. Pellentesque vel volutpat felis. Curabitur molestie erat non libero laoreet, ut volutpat magna dictum. Vivamus commodo commodo consequat.
-
-				Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam hendrerit sem non nisi bibendum feugiat. Quisque nec sagittis eros. Sed dignissim purus sit amet ipsum scelerisque, ut cursus risus gravida. Mauris efficitur mauris consequat, elementum ipsum vitae, malesuada diam. In a purus in risus laoreet blandit. Quisque gravida aliquam massa. Duis id dictum ante. Phasellus quam leo, fringilla id ex a, lacinia scelerisque turpis. Vestibulum tincidunt, dolor non pretium consectetur, lectus justo elementum tortor, in gravida ex ligula ut magna.
-
-				Fusce at neque nec arcu aliquam blandit nec ac felis. Sed pellentesque odio eu purus pretium aliquam. Proin at ullamcorper tellus, non varius leo. Nulla facilisi. Proin dapibus commodo risus id cursus. Aenean sit amet nisl pellentesque, congue dui et, ultricies turpis. Phasellus ut posuere erat, a sagittis dui. Nulla ultricies non arcu nec vestibulum.
-
-				Nunc a imperdiet odio. Sed at purus vehicula, feugiat est vitae, sollicitudin odio. Nunc mattis nec ex et varius. Ut posuere elementum eleifend. Sed efficitur lacus eu sem tincidunt imperdiet. Morbi mollis ligula a aliquet lobortis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla facilisi. Nulla auctor egestas dignissim. Integer urna enim, volutpat vel orci eu, lacinia cursus mi. Aenean consequat dui luctus, fermentum sapien eget, fermentum ante. Quisque ullamcorper vel nisi et finibus. Maecenas ullamcorper lobortis lacinia.
-
-				Sed ultrices rutrum tellus, nec malesuada augue gravida at. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In ut ullamcorper est. Ut quis sem feugiat odio interdum viverra. In tincidunt congue urna ac accumsan. In vel iaculis neque. Nulla dapibus, est eget tincidunt tempus, neque orci tempor nunc, ut pellentesque est elit sed leo. Aenean vestibulum libero et ligula aliquet mollis. Aenean in vehicula eros. Vivamus sodales quis ante sit amet convallis. Suspendisse et viverra tortor, a faucibus justo. Donec nec neque metus. Sed vel arcu dapibus, mattis elit a, convallis tortor.
+				Lorem ipsum 
 			</div>
 		);
 	}
@@ -573,7 +565,7 @@ class ContactView extends React.Component {
 		return(
 			<div>
 				<center>
-					<p>jthorel (at) kth.se</p>
+					<p>jthorel@kth.se</p>
 					<p><a href="https://www.linkedin.com/in/johan-torell" target="_blank">linkedin</a></p>
 					<p><a href="https://github.com/jthorel" target="_blank">jthorel @ github</a></p>
 				</center>
