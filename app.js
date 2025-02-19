@@ -417,7 +417,7 @@ class AboutView extends React.Component {
 					</p>
 					<p>
 						<span className="boldhaas">computer skills</span><br/>
-						Unreal Engine, Unity3D, Python, C/C++/C#, HTML, JavaScript (React/Redux etc), SQL, Matlab, Pure Data, Excel (modeling, vba, etc.), Photoshop, Premiere, After Effects ...
+						iOS development, Swift, GraphQL, TypeScript, DevOps, Oauth2, Unreal Engine, Unity3D, Python, C/C++/C#, HTML, JavaScript (React/Redux etc), SQL, Matlab, Pure Data, Excel (modeling, vba, etc.), Photoshop, Premiere, After Effects ...
 					</p>
 
 				</center>
