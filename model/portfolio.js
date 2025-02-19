@@ -35,7 +35,24 @@ var Portfolio = function () {
       embed: [],
       videos: ["vr2"],
     },
-
+    {
+      id: 5,
+      title: "labyrinth",
+      thumb: "labyrinth.jpeg",
+      shortdesc:
+        "VR game developed in Unity. Presented and tested at several exhibitions.",
+      desc: "VR game developed in Unity. Presented and tested at several exhibitions.",
+      tags: [
+        "Unity3D",
+        "Game Design",
+        "Virtual Reality",
+        "Advanced Graphics",
+        "Interaction",
+      ],
+      images: [],
+      videos: ["labyrinth"],
+      // link: {url: "https://labyrinth.christianabdelmassih.com", text: "Project website"}
+    },
     {
       id: 2,
       title: "kälk-nisse",
@@ -69,6 +86,28 @@ var Portfolio = function () {
         url: "http://xml.csc.kth.se/~jthorel/ixd-metod/prototyp/schedule_fin.html",
         text: "Test prototype",
       },
+    },
+
+    {
+      id: 4,
+      title: "tracklists",
+      thumb: "tracks2.png",
+      shortdesc: "Web app for saving tracklists of music sets.",
+      desc: "Webapp to save sets of music. Created for a interaction programming course. Fully functional with user functions and a document-oriented (MongoDB) database.",
+      tags: ["React", "Backbone", "HTML5", "CSS", "JavaScript"],
+      images: ["tracks1.png", "tracks2.png", "tracks3.png"],
+      // link: {url: "https://intprogkth.herokuapp.com/", text:"Online demo"}
+    },
+    {
+      id: 6,
+      title: "activities",
+      thumb: "act1.png",
+      shortdesc:
+        "Mobile web app for creating activities. Other nearby users can join using geolocation.",
+      desc: "Create activities using geolocation. Users can join by checking nearby activities or byt using the map. User functions and chat function in the activity. Not actively maintained, some function might not work.",
+      tags: ["React", "Backbone", "HTML5", "CSS", "JavaScript", "Mobile"],
+      images: ["act1.png", "act2.png", "act3.png"],
+      // link: {url: "https://activitiesmopub.herokuapp.com", text: "Online demo (made for mobile in mind)"}
     },
     {
       id: 13,
@@ -104,48 +143,18 @@ var Portfolio = function () {
         text: "View on App Store",
       },
     },
-
     {
-      id: 5,
-      title: "labyrinth",
-      thumb: "labyrinth.jpeg",
+      id: 14,
+      title: "Back To Office",
+      thumb: "backtooffice.PNG",
       shortdesc:
-        "VR game developed in Unity. Presented and tested at several exhibitions.",
-      desc: "VR game developed in Unity. Presented and tested at several exhibitions.",
-      tags: [
-        "Unity3D",
-        "Game Design",
-        "Virtual Reality",
-        "Advanced Graphics",
-        "Interaction",
-      ],
-      images: [],
-      videos: ["labyrinth"],
-      // link: {url: "https://labyrinth.christianabdelmassih.com", text: "Project website"}
+        "Native iOS for Folksam employees to check the occupancy of different floors in the Folksam office during covid. Tracked anonymously with iBeacons.",
+      desc: "Native iOS for Folksam employees to check the occupancy of different floors in the Folksam office during covid. Tracked anonymously with iBeacons.",
+      tags: ["iOS", "UIKit", "iBeacon"],
+      images: ["backtooffice.PNG"],
+      embed: [],
+      videos: [],
     },
-
-    {
-      id: 4,
-      title: "tracklists",
-      thumb: "tracks2.png",
-      shortdesc: "Web app for saving tracklists of music sets.",
-      desc: "Webapp to save sets of music. Created for a interaction programming course. Fully functional with user functions and a document-oriented (MongoDB) database.",
-      tags: ["React", "Backbone", "HTML5", "CSS", "JavaScript"],
-      images: ["tracks1.png", "tracks2.png", "tracks3.png"],
-      // link: {url: "https://intprogkth.herokuapp.com/", text:"Online demo"}
-    },
-    {
-      id: 6,
-      title: "activities",
-      thumb: "act1.png",
-      shortdesc:
-        "Mobile web app for creating activities. Other nearby users can join using geolocation.",
-      desc: "Create activities using geolocation. Users can join by checking nearby activities or byt using the map. User functions and chat function in the activity. Not actively maintained, some function might not work.",
-      tags: ["React", "Backbone", "HTML5", "CSS", "JavaScript", "Mobile"],
-      images: ["act1.png", "act2.png", "act3.png"],
-      // link: {url: "https://activitiesmopub.herokuapp.com", text: "Online demo (made for mobile in mind)"}
-    },
-
     {
       id: 3,
       title: "waypoint tracker",
@@ -178,18 +187,6 @@ var Portfolio = function () {
       desc: "Design prototype for a new bus commute planning app in Stockholm, specifically for users with a baby stroller.",
       tags: ["Interaction Design", "Prototyping", "UX", "Balsamiq", "Flinto"],
       images: ["bussfeed/drop_sture.jpg", "bussfeed/graf_sture.jpg"],
-    },
-    {
-      id: 14,
-      title: "Back To Office",
-      thumb: "backtooffice.PNG",
-      shortdesc:
-        "Native iOS for Folksam employees to check the occupancy of different floors in the Folksam office during covid. Tracked anonymously with iBeacons.",
-      desc: "Native iOS for Folksam employees to check the occupancy of different floors in the Folksam office during covid. Tracked anonymously with iBeacons.",
-      tags: ["iOS", "UIKit", "iBeacon"],
-      images: ["backtooffice.PNG"],
-      embed: [],
-      videos: [],
     },
 
     {
