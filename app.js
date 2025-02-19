@@ -412,7 +412,8 @@ class AboutView extends React.Component {
 					<p>
 						<span className="boldhaas">misc</span><br/>
 						Enjoy creating and tinkering. Physically and digitally. "Art" and functional.<br/>
-						Studied film, classically trained drummer and played guitar in a blues band.<br/>
+						Studied film, played drums, and played guitar in a blues band.<br/>
+						Enjoy climbing, snowboard, cross-country skiing, general outdoors.
 					</p>
 					<p>
 						<span className="boldhaas">computer skills</span><br/>
