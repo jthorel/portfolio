@@ -381,7 +381,7 @@ class App extends React.Component {
 						<NavLink to="/a/contact">contact</NavLink>
 					</li>
 				</ul>
-				<center><small className="text-muted">Johan Thorell - jthorel@kth.se</small></center>
+				<center><small className="text-muted">Johan Thorell - johantorell@icloud.com</small></center>
 				<hr width="50%"/>
 				
 				{this.props.children}
