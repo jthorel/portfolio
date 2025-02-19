@@ -37,34 +37,6 @@ var Portfolio = function () {
     },
 
     {
-      id: 13,
-      title: "Folksam mobile app",
-      thumb: "app8.png",
-      shortdesc: "Folksam's first native mobile app for iOS and Android",
-      desc: "Folksam's first native mobile app for iOS and Android. Released to App Store. Built with SwitUI in MVVM and Clean architecture, with a GraphQL backend in Node and Typescript. Backend deployed and managed in OpenShift cluster and DevOps in Gitlab.",
-      tags: ["iOS", "SwiftUI", "MVVM", "Node", "Typescript", "GraphQL", "Kubernetes", "DevOps", "Gitlab"],
-      images: ["app1.png","app2.png","app3.png","app4.png","app5.png","app6.png","app7.png","app8.png"],
-      embed: [],
-      videos: ["vr2"],
-	  link: {
-        url: "https://apps.apple.com/us/app/folksam-försäkringsbolag/id6468263762",
-        text: "View on App Store",
-      },
-    },
-    {
-      id: 14,
-      title: "Back To Office",
-      thumb: "backtooffice.PNG",
-      shortdesc:
-        "Native iOS for Folksam employees to check the occupancy of different floors in the Folksam office during covid. Tracked anonymously with iBeacons.",
-      desc: "Native iOS for Folksam employees to check the occupancy of different floors in the Folksam office during covid. Tracked anonymously with iBeacons.",
-      tags: ["iOS", "UIKit", "iBeacon"],
-      images: ["backtooffice.PNG"],
-      embed: [],
-      videos: [],
-    },
-
-    {
       id: 2,
       title: "kälk-nisse",
       thumb: "kalk1.png",
@@ -74,78 +46,6 @@ var Portfolio = function () {
       tags: ["Augmented Reality", "C#", "Unity3D", "ARKit"],
       images: ["kalk1.png"],
       videos: ["kalk"],
-    },
-    {
-      id: 3,
-      title: "waypoint tracker",
-      thumb: "katt.gif",
-      shortdesc:
-        "Bachelor thesis. Iphone app utilizing spatial sound from GPS positions as direction for navigation, with user testing.",
-      desc: "Bachelor thesis. Iphone app using spatial sound GPS beacons for navigation, with user testing. ",
-      tags: ["Xcode", "Swift", "User Testing", "Usability"],
-      images: ["katt.gif"],
-      link: {
-        url: "https://github.com/jthorel/Waypoint-tracker",
-        text: "Source code on Github",
-      },
-    },
-    {
-      id: 4,
-      title: "tracklists",
-      thumb: "tracks2.png",
-      shortdesc: "Web app for saving tracklists of music sets.",
-      desc: "Webapp to save sets of music. Created for a interaction programming course. Fully functional with user functions and a document-oriented (MongoDB) database.",
-      tags: ["React", "Backbone", "HTML5", "CSS", "JavaScript"],
-      images: ["tracks1.png", "tracks2.png", "tracks3.png"],
-      // link: {url: "https://intprogkth.herokuapp.com/", text:"Online demo"}
-    },
-    {
-      id: 6,
-      title: "activities",
-      thumb: "act1.png",
-      shortdesc:
-        "Mobile web app for creating activities. Other nearby users can join using geolocation.",
-      desc: "Create activities using geolocation. Users can join by checking nearby activities or byt using the map. User functions and chat function in the activity. Not actively maintained, some function might not work.",
-      tags: ["React", "Backbone", "HTML5", "CSS", "JavaScript", "Mobile"],
-      images: ["act1.png", "act2.png", "act3.png"],
-      // link: {url: "https://activitiesmopub.herokuapp.com", text: "Online demo (made for mobile in mind)"}
-    },
-    {
-      id: 5,
-      title: "labyrinth",
-      thumb: "labyrinth.jpeg",
-      shortdesc:
-        "VR game developed in Unity. Presented and tested at several exhibitions.",
-      desc: "VR game developed in Unity. Presented and tested at several exhibitions.",
-      tags: [
-        "Unity3D",
-        "Game Design",
-        "Virtual Reality",
-        "Advanced Graphics",
-        "Interaction",
-      ],
-      images: [],
-      videos: ["labyrinth"],
-      // link: {url: "https://labyrinth.christianabdelmassih.com", text: "Project website"}
-    },
-    {
-      id: 15,
-      title: "traffic accidents in augmented reality",
-      thumb: "arkholmen.png",
-      shortdesc: "Check history of traffic accidents in live view!",
-      desc: "Visualize where traffic accidents happened in live view. More details are also available when the pin is pressed. Prototype built in a day in Swift and ARKit, with real data from Folksam.",
-      tags: ["iOS", "Swift", "ARKit"],
-      videos: ["ARKholmen_sd"],
-    },
-    {
-      id: 7,
-      title: "bussfeed",
-      thumb: "bussfeed/first.png",
-      shortdesc:
-        "Design prototype for a new bus commute planning app in Stockholm, specifically for users with a baby stroller.",
-      desc: "Design prototype for a new bus commute planning app in Stockholm, specifically for users with a baby stroller.",
-      tags: ["Interaction Design", "Prototyping", "UX", "Balsamiq", "Flinto"],
-      images: ["bussfeed/drop_sture.jpg", "bussfeed/graf_sture.jpg"],
     },
 
     {
@@ -169,6 +69,127 @@ var Portfolio = function () {
         url: "http://xml.csc.kth.se/~jthorel/ixd-metod/prototyp/schedule_fin.html",
         text: "Test prototype",
       },
+    },
+    {
+      id: 13,
+      title: "Folksam mobile app",
+      thumb: "app8.png",
+      shortdesc: "Folksam's first native mobile app for iOS and Android",
+      desc: "Folksam's first native mobile app for iOS and Android. Released to App Store. Built with SwitUI in MVVM and Clean architecture, with a GraphQL backend in Node and Typescript. Backend deployed and managed in OpenShift cluster and DevOps in Gitlab.",
+      tags: [
+        "iOS",
+        "SwiftUI",
+        "MVVM",
+        "Node",
+        "Typescript",
+        "GraphQL",
+        "Kubernetes",
+        "DevOps",
+        "Gitlab",
+      ],
+      images: [
+        "app1.png",
+        "app2.png",
+        "app3.png",
+        "app4.png",
+        "app5.png",
+        "app6.png",
+        "app7.png",
+        "app8.png",
+      ],
+      embed: [],
+      videos: ["vr2"],
+      link: {
+        url: "https://apps.apple.com/us/app/folksam-försäkringsbolag/id6468263762",
+        text: "View on App Store",
+      },
+    },
+
+    {
+      id: 5,
+      title: "labyrinth",
+      thumb: "labyrinth.jpeg",
+      shortdesc:
+        "VR game developed in Unity. Presented and tested at several exhibitions.",
+      desc: "VR game developed in Unity. Presented and tested at several exhibitions.",
+      tags: [
+        "Unity3D",
+        "Game Design",
+        "Virtual Reality",
+        "Advanced Graphics",
+        "Interaction",
+      ],
+      images: [],
+      videos: ["labyrinth"],
+      // link: {url: "https://labyrinth.christianabdelmassih.com", text: "Project website"}
+    },
+
+    {
+      id: 4,
+      title: "tracklists",
+      thumb: "tracks2.png",
+      shortdesc: "Web app for saving tracklists of music sets.",
+      desc: "Webapp to save sets of music. Created for a interaction programming course. Fully functional with user functions and a document-oriented (MongoDB) database.",
+      tags: ["React", "Backbone", "HTML5", "CSS", "JavaScript"],
+      images: ["tracks1.png", "tracks2.png", "tracks3.png"],
+      // link: {url: "https://intprogkth.herokuapp.com/", text:"Online demo"}
+    },
+    {
+      id: 6,
+      title: "activities",
+      thumb: "act1.png",
+      shortdesc:
+        "Mobile web app for creating activities. Other nearby users can join using geolocation.",
+      desc: "Create activities using geolocation. Users can join by checking nearby activities or byt using the map. User functions and chat function in the activity. Not actively maintained, some function might not work.",
+      tags: ["React", "Backbone", "HTML5", "CSS", "JavaScript", "Mobile"],
+      images: ["act1.png", "act2.png", "act3.png"],
+      // link: {url: "https://activitiesmopub.herokuapp.com", text: "Online demo (made for mobile in mind)"}
+    },
+
+    {
+      id: 3,
+      title: "waypoint tracker",
+      thumb: "katt.gif",
+      shortdesc:
+        "Bachelor thesis. Iphone app utilizing spatial sound from GPS positions as direction for navigation, with user testing.",
+      desc: "Bachelor thesis. Iphone app using spatial sound GPS beacons for navigation, with user testing. ",
+      tags: ["Xcode", "Swift", "User Testing", "Usability"],
+      images: ["katt.gif"],
+      link: {
+        url: "https://github.com/jthorel/Waypoint-tracker",
+        text: "Source code on Github",
+      },
+    },
+    {
+      id: 15,
+      title: "traffic accidents in augmented reality",
+      thumb: "arkholmen.png",
+      shortdesc: "Check history of traffic accidents in live view!",
+      desc: "Visualize where traffic accidents happened in live view. More details are also available when the pin is pressed. Prototype built in a day in Swift and ARKit, with real data from Folksam.",
+      tags: ["iOS", "Swift", "ARKit"],
+      videos: ["ARKholmen_sd"],
+    },
+    {
+      id: 7,
+      title: "bussfeed",
+      thumb: "bussfeed/first.png",
+      shortdesc:
+        "Design prototype for a new bus commute planning app in Stockholm, specifically for users with a baby stroller.",
+      desc: "Design prototype for a new bus commute planning app in Stockholm, specifically for users with a baby stroller.",
+      tags: ["Interaction Design", "Prototyping", "UX", "Balsamiq", "Flinto"],
+      images: ["bussfeed/drop_sture.jpg", "bussfeed/graf_sture.jpg"],
+    },
+    {
+      id: 14,
+      title: "Back To Office",
+      thumb: "backtooffice.PNG",
+      shortdesc:
+        "Native iOS for Folksam employees to check the occupancy of different floors in the Folksam office during covid. Tracked anonymously with iBeacons.",
+      desc: "Native iOS for Folksam employees to check the occupancy of different floors in the Folksam office during covid. Tracked anonymously with iBeacons.",
+      tags: ["iOS", "UIKit", "iBeacon"],
+      images: ["backtooffice.PNG"],
+      embed: [],
+      videos: [],
     },
 
     {
