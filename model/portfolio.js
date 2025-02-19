@@ -98,7 +98,7 @@ var Portfolio = function () {
         "app8.png",
       ],
       embed: [],
-      videos: ["vr2"],
+      videos: [],
       link: {
         url: "https://apps.apple.com/us/app/folksam-försäkringsbolag/id6468263762",
         text: "View on App Store",
