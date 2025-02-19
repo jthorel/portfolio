@@ -566,7 +566,7 @@ class ContactView extends React.Component {
 		return(
 			<div>
 				<center>
-					<p>jthorel@kth.se</p>
+					<p>johantorell@icloud.com</p>
 					<p><a href="https://www.linkedin.com/in/johan-torell" target="_blank">linkedin</a></p>
 					<p><a href="https://github.com/jthorel" target="_blank">jthorel @ github</a></p>
 				</center>
